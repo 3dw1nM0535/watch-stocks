@@ -3,7 +3,9 @@ import { Grid, Header } from "semantic-ui-react";
 
 const HomePage = () => (
   <Grid centered padded>
-    <Header as="h2">Watch Stocks</Header>
+    <Grid.Column textAlign="center">
+      <Header as="h1">Watch Stocks</Header>
+    </Grid.Column>
   </Grid>
 );
 
